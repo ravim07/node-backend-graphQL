@@ -4,7 +4,7 @@ const { graphqlUploadExpress } = require("graphql-upload");
 
 const app = require("./app");
 const apolloServer = require("./apollo");
-
+// learn new things
 async function startServer() {
   app.use(graphqlUploadExpress());
   await apolloServer.start();
