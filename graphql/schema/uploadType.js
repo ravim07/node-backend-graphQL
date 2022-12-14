@@ -15,12 +15,16 @@ module.exports = gql`
     username: String
     count: [String]
     userId: ID
+    postname: String
+    description: String
   }
   input FileInput {
     id: String!
     file: Upload!
     username: String!
     count: [String]
+    postname: String
+    description: String
   }
   extend type Query {
     greetings: String

@@ -20,6 +20,14 @@ module.exports.UploadFile = model(
         type: [],
         required: true,
       },
+      postname: {
+        type: String,
+        required: true
+      },
+      description: {
+        type: String,
+        required: true
+      }
     },
     { timestamps: true }
   )
